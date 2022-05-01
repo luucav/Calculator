@@ -8,14 +8,15 @@ body{
     height: 100vh;
     background: linear-gradient(
         to bottom,
-        #f9544c 50%,
+        #631bc1 50%,
         #090c31 50%
     );
 }
 .calculator{
     width: 400px;
-    background-color: #15173c;
+    background-color: #15173c60;
     padding: 50px 30px;
+    backdrop-filter: blur(100px);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -55,7 +56,7 @@ body{
 }
 .buttons input[type="button"]:hover{
     box-shadow: 0 8px 25px #000d2e;
-    background-color: #21234d;
+    background-color: #50179c;
 }
 input[type="button"]#equal {
     grid-row: span 2;
